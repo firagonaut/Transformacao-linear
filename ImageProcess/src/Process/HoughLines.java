@@ -61,8 +61,8 @@ class HoughLinesRun {
         }
         // Show results
         HighGui.imshow("Source", src);
-        HighGui.imshow("Detected Lines (in red) - Standard Hough Line Transform", cdst);
-        HighGui.imshow("Detected Lines (in red) - Probabilistic Line Transform", cdstP);
+        HighGui.imshow("Linhas detectadas (vermelho) - Transformada de Hough", cdst);
+        HighGui.imshow("Linhas detectaas (vermelho) - Transformada probabilistica", cdstP);
         // Wait and Exit
         HighGui.waitKey();
         System.exit(0);
